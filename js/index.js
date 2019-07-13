@@ -61,5 +61,21 @@ rotateP.forEach(element =>{
 })
 
 
+// drag btn
+const btn = document.querySelectorAll('.btn');
 
+btn.forEach(button => {
+    button.addEventListener('drag', (e =>{
+        e.target.style.background = '#EE6055';
+        e.target.style.color = '#FFD97D';
+    }))
+})
+
+// change color on keydown
+const press = document.querySelectorAll('p');
+press.forEach(key =>{
+    key.addEventListener('keypress', (e) =>{
+        key.target.style.color = '#FFD97D';
+    })
+})
 
