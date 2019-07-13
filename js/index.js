@@ -1,4 +1,10 @@
 // Your code goes here
+// show an alert when page is fully leaded
+window.addEventListener('load', e =>{
+    alert(`Page has loaded`);
+    console.log(`window is selected`);
+})
+
 // Fun Bus Logo hover effect
 const logo = document.querySelector('h1');
 
