@@ -215,6 +215,15 @@ img {
   color: #212529;
   text-decoration: none;
 }
+.aLogo {
+  color: #EE6055;
+  font-size: 5rem;
+}
+.aNav {
+  color: #60D394 !important;
+  font-size: 2rem !important;
+  text-shadow: 2px 2px #AAF683;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed #C0C0C0;
@@ -349,4 +358,14 @@ img {
 .home .content-pick .destination .btn:hover {
   background: #FFFFFF;
   color: #17A2B8;
+}
+.dbimg {
+  box-shadow: 4px 6px 2px 4px #FFD97D;
+  transform: scale3d(1.3, 1.3, 1.3);
+  transition-duration: 1s;
+}
+.pSelect {
+  color: #FF9B85;
+  transform: rotate(0.5turn);
+  transition-duration: 1s;
 }
