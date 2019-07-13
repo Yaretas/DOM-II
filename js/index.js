@@ -36,11 +36,23 @@ imgdb.forEach(double =>{
     double.addEventListener('dblclick', (e) => {
         double.classList.add('dbimg');
     })
-    double.addEventListener('mouseleave', (e) => {
+    double.addEventListener('click', (e) => {
         double.classList.remove('dbimg');
     })
 })
 
+// rotating text
+const rotateP = document.querySelectorAll('.content-pick p');
+
+rotateP.forEach(element =>{
+    element.addEventListener('mouseup', (e) => {
+        element.classList.add('pSelect');
+    })
+    console.log(`this element is being selected`);
+    element.addEventListener('mousedown', (e) =>{
+        element.classList.remove('pSelect');
+    })
+})
 
 
 
